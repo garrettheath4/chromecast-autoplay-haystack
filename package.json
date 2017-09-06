@@ -1,0 +1,11 @@
+{
+  "name": "chromecast-autoplay-haystack",
+  "version": "1.0.0",
+  "description": "Autoplay Haystack TV on a local Chromecast when it is idle",
+  "author": "Garrett Heath Koller <garrettheath4@gmail.com>",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "//": " vim: set ts=2 sw=2 sta sts=2 sr et:"
+}
