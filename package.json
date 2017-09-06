@@ -2,6 +2,7 @@
   "name": "chromecast-autoplay-haystack",
   "version": "1.0.0",
   "description": "Autoplay Haystack TV on a local Chromecast when it is idle",
+  "keywords": [ "google", "chromecast" ],
   "license": "MIT",
   "author": "Garrett Heath Koller <garrettheath4@gmail.com>",
   "main": "main.js",
