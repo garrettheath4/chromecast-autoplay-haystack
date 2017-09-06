@@ -104,8 +104,11 @@ function sendHaystackPlay(sessionObj) {
     if (!messageErr) {
       console.log('Got an answer!', util.inspect(messageResponse));
     } else {
-      console.log('Unable to send message:', messageErr);
+      console.log('Unable to send message', messageErr);
     }
+  });
+  s.on('message', data => {
+      console.log('Got an unexpected message', util.inspect(data));
   });
 }
 
