@@ -15,5 +15,8 @@
   "dependencies": {
     "nodecastor": "^0.1.8"
   },
+  "engines": {
+    "node": "^8.4.0"
+  },
   "//": " vim: set ts=2 sw=2 sta sts=2 sr et:"
 }
